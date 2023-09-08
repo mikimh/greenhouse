@@ -9,10 +9,10 @@
 #include <Wire.h>
 #include <BH1750.h>
 
-const char* ssid = "ADB-EBF141";
-const char* password = "60501I0004969";
+const char* ssid = "ADB-EBF141_EXT";
+const char* password = "";
 
-String serverName = "https://greenhouse.crmsystems.sk/api/";
+String serverName = "";
 
 // certificate for https://greenhouse.crmsystems.sk
 // DST Root CA X3, valid until Mon Sep 30 2024, size: 1923 bytes 
